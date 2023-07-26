@@ -33,7 +33,7 @@
     </style>
 </head>
 <body>
-    <header class="md:w-11/12 md:mx-auto">
+    <header class="md:w-11/12 md:mx-auto relative">
         <div class="navbar  px-5 py-4 my-10 md:bg-custom-bg justify-between items-center rounded-full">
             <div class="order-3 lg:order-1">
                 <div class="dropdown">
@@ -74,11 +74,11 @@
             
         </div>
         <!--End of Nav Section-->
-        <div class="carousel w-full">
+        <div class="carousel w-full -z-40">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="w-full relative">
               <img src="images/banner1.png" class="w-full" />
-              <div class="text-center space-y-2 w-[80%]  absolute lg:pt-12 md:pt-6 pt-2 xl:pt-16 top-0 left-[10%] ">
+              <div class="text-center space-y-2 w-[80%]  absolute lg:pt-12 md:pt-6 pt-2 xl:pt-24 top-0 left-[10%] ">
                 <h1 class="text-white font-bold text-2xl md:text-3xl lg:text-6xl">Exotic tastes at your <br> doorstep</h1>
                 <p class="text-white font-semibold text-base lg:text-xl">We supply highly quality organic products</p>
                 <button class="border-none bg-custom-bg text-base md:text-xl p-2 md:px-7 md:py-4 lg:rounded-lg rounded-md text-white">Shop Now</button>
@@ -93,7 +93,7 @@
           <div id="slide2" class="carousel-item relative w-full">
             <div class="w-full relative">
               <img src="images/banner2.png" class="w-full" />
-              <div class="text-center space-y-2 w-[80%] absolute lg:pt-12 md:pt-6 pt-2 xl:pt-16 top-0 left-[10%]">
+              <div class="text-center space-y-2 w-[80%] absolute lg:pt-12 md:pt-6 pt-2 xl:pt-24 top-0 left-[10%]">
                 <h1 class="text-white font-bold text-2xl md:text-5xl lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
                 <p class="text-white font-semibold text-base lg:text-xl">We supply highly quality organic products</p>
                 <button class="border-none bg-custom-bg text-base md:text-xl p-2 md:px-7 md:py-4 lg:rounded-lg rounded-md text-white">Shop Now</button>
@@ -107,7 +107,7 @@
           <div id="slide3" class="carousel-item relative w-full">
             <div class="w-full">
               <img src="images/banner3.png" class="w-full"/>
-              <div class="text-center space-y-2 w-[80%] absolute lg:pt-12 md:pt-6 pt-2 xl:pt-16 top-0 left-[10%] ">
+              <div class="text-center space-y-2 w-[80%] absolute lg:pt-12 md:pt-6 pt-2 xl:pt-24 top-0 left-[10%] ">
                 <h1 class="text-white font-bold text-2xl md:text-5xl lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
                 <p class="text-white font-semibold text-base lg:text-xl">We supply highly quality organic products</p>
                 <button class="border-none bg-custom-bg text-base md:text-xl p-2 md:px-7 md:py-4 lg:rounded-lg rounded-md text-white">Shop Now</button>
@@ -121,7 +121,7 @@
           <div id="slide4" class="carousel-item relative w-full">
             <div class="w-full">
               <img src="images/banner4.png" class="w-full" />
-              <div class="text-center space-y-2 w-[80%] absolute xl:pt-16 lg:pt-12 md:pt-6 pt-2 top-0 left-[10%]">
+              <div class="text-center space-y-2 w-[80%] absolute xl:pt-24 lg:pt-12 md:pt-6 pt-2 top-0 left-[10%]">
                 <h1 class="text-white font-bold text-2xl md:text-5xl lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
                 <p class="text-white font-semibold text-base lg:text-xl">We supply highly quality organic products</p>
                 <button class="border-none bg-custom-bg text-base md:text-xl p-2 md:px-7 md:py-4 lg:rounded-lg rounded-md text-white">Shop Now</button>
@@ -133,9 +133,45 @@
             </div>
           </div>
         </div>
+        <div class=" lg:flex hidden justify-evenly items-center absolute py-8 left-[10%] lg:-bottom-[22%] rounded-lg w-4/5 mx-auto bg-white shadow-2xl z-50">
+          <div>
+            <img src="images/fruit1.png" alt="">
+            <p class="text-center mt-2">Strawberry</p>
+          </div>
+          <div>
+            <img src="images/fruit2.png" alt="">
+            <p class="text-center mt-2">Orange</p>
+          </div>
+          <div>
+            <img src="images/fruit3.png" alt="">
+            <p class="text-center mt-2">Mango</p>
+          </div>
+          <div>
+            <img src="images/fruit4.png" alt="">
+            <p class="text-center mt-2">Strawberry</p>
+          </div>
+          <div>
+            <img src="images/fruit5.png" alt="">
+            <p class="text-center mt-2">Mango</p>
+          </div>
+          
+        </div>
     </header>
-    <main>
-
+    <main class="w-11/12 my-12 mx-auto">
+      <section>
+        <div class="flex justify-between">
+          <div>
+            <h3>Deal of the day</h3>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
